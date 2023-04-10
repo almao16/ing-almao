@@ -1,0 +1,45 @@
+.form-wrap {
+  position: relative
+}
+.form-box {
+  padding: $spacing2;
+  @include breakpoints-up(sm) {
+    padding: $spacing7
+  }
+  @include breakpoints-down(xs) {
+    padding: spacing(4, 2);
+    border-radius: 40px !important;
+  }
+}
+
+.title-main {
+  @include text-align(left);
+  span {
+    color: $palette-primary-main
+  }
+}
+.input {
+  width: 100%;
+  margin-bottom: $spacing5;
+  @include breakpoints-down(xs) {
+    margin-bottom: $spacing3
+  }
+}
+
+.form {
+  @include text-align(left);
+  position: relative;
+}
+.btn-area {
+  display: flex;
+  justify-content: space-between;
+  margin: spacing(0, 0, 3);
+  @include breakpoints-up(sm) {
+    margin: spacing(3, 0, 0)
+  }
+  @include breakpoints-down(xs) {
+    .v-btn {
+      width: 100%
+    }
+  }
+}

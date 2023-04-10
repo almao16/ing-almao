@@ -1,0 +1,86 @@
+[
+  {
+    "name": "index___ar",
+    "path": "/ar",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2d4133de"
+  },
+  {
+    "name": "blank-page___en",
+    "path": "/blank-page",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\blank-page.vue",
+    "chunkName": "pages/blank-page",
+    "_name": "_0c061d0c"
+  },
+  {
+    "name": "index___de",
+    "path": "/de",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2d4133de"
+  },
+  {
+    "name": "index___id",
+    "path": "/id",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2d4133de"
+  },
+  {
+    "name": "index___pt",
+    "path": "/pt",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2d4133de"
+  },
+  {
+    "name": "index___zh",
+    "path": "/zh",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2d4133de"
+  },
+  {
+    "name": "blank-page___ar",
+    "path": "/ar/blank-page",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\blank-page.vue",
+    "chunkName": "pages/blank-page",
+    "_name": "_0c061d0c"
+  },
+  {
+    "name": "blank-page___de",
+    "path": "/de/blank-page",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\blank-page.vue",
+    "chunkName": "pages/blank-page",
+    "_name": "_0c061d0c"
+  },
+  {
+    "name": "blank-page___id",
+    "path": "/id/blank-page",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\blank-page.vue",
+    "chunkName": "pages/blank-page",
+    "_name": "_0c061d0c"
+  },
+  {
+    "name": "blank-page___pt",
+    "path": "/pt/blank-page",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\blank-page.vue",
+    "chunkName": "pages/blank-page",
+    "_name": "_0c061d0c"
+  },
+  {
+    "name": "blank-page___zh",
+    "path": "/zh/blank-page",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\blank-page.vue",
+    "chunkName": "pages/blank-page",
+    "_name": "_0c061d0c"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\femine-theme\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2d4133de"
+  }
+]

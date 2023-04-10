@@ -1,0 +1,100 @@
+$flag: '/images/flag-logo.png';
+
+@mixin flag-icon{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  @include margin-right(5px);
+  top: 1px;
+  background: url($flag) no-repeat transparent;
+  background-size: 16px auto;
+  &.ar {
+    background-position: 0 3px;
+  }
+  &.zh {
+    background-position: 0 -12px
+  }
+  &.en {
+    background-position: 0 -28px
+  }
+  &.de {
+    background-position: 0 -44px
+  }
+  &.id {
+    background-position: 0 -62px
+  }
+  &.pt {
+    background-position: 0 -79px
+  }
+}
+
+.lang-menu {
+  text-transform: capitalize;
+  .flag {
+    margin: 0;
+    & i {
+      @include flag-icon;
+    }
+  }
+  .lang-list {
+    padding: 0;
+    .lang-opt{
+      font-size: 0.875rem;
+      @include margin-left($spacing2)
+    }
+  }
+}
+
+.mode-menu {
+  text-transform: capitalize
+}
+
+.user-menu {
+  & > button {
+    margin: 0 $spacing1;
+  }
+}
+
+.setting {
+  width: 48px;
+  height: 48px;
+  margin: spacing(0, 1);
+  text-align: center;
+  line-height: 48px;
+  .icon.v-icon {
+    font-size: 24px;
+    transition: all 0.3s ease;
+    @include palette-text-secondary
+  }
+  .active {
+    transform: rotate(30deg)
+  }
+}
+
+.popover {
+  @include palette-background-paper;
+  width: 200px;
+  .v-list {
+    border-radius: 0
+  }
+}
+
+.switch-toggle {
+  margin: spacing(0, 2);
+  ::v-deep .v-input--switch__thumb {
+    color: var(--v-secondary-base);
+  }
+}
+
+.flex-menu {
+  display: flex;
+  margin-top: $spacing1;
+  label {
+    padding-top: 8px
+  }
+  ::v-deep .v-messages {
+    display: none
+  }
+}

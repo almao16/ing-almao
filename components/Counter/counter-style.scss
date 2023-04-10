@@ -1,0 +1,43 @@
+#watched_counter {
+  position: relative;
+  top: -400px
+}
+
+.counter-wrap {
+  overflow: hidden;
+  position: relative;
+  @include use-theme(background, linear-gradient(120deg, $palette-secondary-light, $palette-primary-light), linear-gradient(120deg, $palette-secondary-dark, $palette-primary-dark));
+  padding: spacing(5, 0);
+  border-radius: 40px;
+  @include breakpoints-up(sm) {
+    border-radius: 140px;
+  }
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  @include breakpoints-down(sm) {
+    justify-content: center
+  }
+}
+
+.counter-item {
+  position: relative;
+  z-index: 1;
+  h6 {
+    white-space: nowrap
+  }
+  @include breakpoints-up(sm) {
+    @include padding-left($spacing2)
+  }
+  @include breakpoints-down(sm) {
+    text-align: center
+  }
+  i {
+    font-weight: bold;
+    @include margin-right($spacing2);
+    font-size: 64px;
+    line-height: 40px
+  }
+}

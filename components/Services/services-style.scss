@@ -1,0 +1,127 @@
+.root {
+  padding-bottom: $spacing2;
+  position: relative;
+  > div {
+    @include breakpoints-down(md) {
+      padding: 0
+    }
+  }
+}
+
+.props {
+  width: 240px;
+  height: 240px;
+  &:focus {
+    outline: none
+  }
+}
+
+.floating-title {
+  text-align: center;
+  padding: spacing(0, 2);
+  & > div {
+    margin-bottom: $spacing4;
+  }
+  @include breakpoints-up(md) {
+    position: absolute;
+    @include left($spacing8);
+    top: $spacing2;
+    width: 240px;
+  }
+}
+
+.carousel {
+  position: relative;
+  ::v-deep .slick-slide {
+    margin-top: $spacing1;
+  }
+  @include breakpoints-down(sm) {
+    margin-top: $spacing3
+  }
+}
+
+.item {
+  padding: spacing(0, 1);
+  margin-bottom: $spacing1;
+  &:focus {
+    outline: none
+  }
+}
+
+.nav {
+  position: absolute;
+  top: 45%;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  min-width: 0;
+  @include palette-background-default;
+  border: none;
+  box-shadow: none;
+  z-index: 3;
+  .v-application--is-rtl & {
+    transform: scale(2.5) rotate(180deg)
+  }
+  .v-application--is-ltr & {
+    transform: scale(2.5) rotate(0deg)
+  }
+  @include breakpoints-down(sm) {
+    display: none
+  }
+  i {
+    transform: scale(1.6);
+    @include use-theme(color, $light-text-primary, $dark-divider)
+  }
+}
+
+.prev {
+  @include left(6px)
+}
+
+.next {
+  @include right(6px)
+}
+
+.item-props-first {
+  div {
+    .v-application--is-rtl & {
+      width: 400px 
+    }
+    .v-application--is-ltr & {
+      width: 350px 
+    }
+    @media (max-width: 1500px) {
+      .v-application--is-rtl & {
+        width: 500px 
+      }
+      .v-application--is-ltr & {
+        width: 350px 
+      }
+    }
+  }
+  @include breakpoints-down(sm) {
+    display: none !important
+  }
+}
+
+.item-props-last {
+  .v-application--is-rtl & {
+    width: 350px 
+  }
+  .v-application--is-ltr & {
+    width: 400px 
+  }
+  div {
+    @media (max-width: 1500px) {
+      .v-application--is-rtl & {
+        width: 300px 
+      }
+      .v-application--is-ltr & {
+        width: 500px 
+      }
+    }
+  }
+  @include breakpoints-down(md) {
+    display: none !important
+  }
+}
